@@ -11,4 +11,11 @@ button.addEventListener('click', function () {
 
     //crea una variabile di controllo per dirmi se l'email è presente o meno nell array
     let controllo = false;
-})
+
+    //ciclo l'array e confronto l'elemento che sto ciclando con la parola inserita dall'input
+    for (let i = 0; i < autorizzati.length; i++) {
+        //se è vera la condizione : Accesso Consentito! imposto la variabile di controllo a true
+        if (autorizzati[i].toLowerCase()) === email) {
+
+}
+    })

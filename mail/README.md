@@ -12,6 +12,6 @@ Vietato utilizzare la funzione includes
 
 4 crea una variabile di controllo per dirmi se l'email è presente o meno nell array
 
-5 recupero il valore inserito nel campo input email e controllo se c'è nell array che ho creato
+5 ciclo l'array e confronto l'elemento che sto ciclando con la parola inserita dall'input
 -se il valore c'è stampa : Accesso Consentito!
 altrimenti stampa : Lei non ha le autorizzazioni necessarie richieste per l'accesso!
