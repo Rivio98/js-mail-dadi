@@ -12,6 +12,8 @@ button.addEventListener('click', function () {
     //crea una variabile di controllo per dirmi se l'email è presente o meno nell array
     let controllo = false;
 
+    document.getElementById('mostra_email').innerHTML = email;
+
     //ciclo l'array e confronto l'elemento che sto ciclando con la parola inserita dall'input
     for (let i = 0; i < autorizzati.length; i++) {
         //se è vera la condizione imposto la variabile di controllo a true
@@ -19,12 +21,15 @@ button.addEventListener('click', function () {
             controllo = true;
         }
     }
-    // se la variabile è true il messaggio visualizzato sarà : Accesso consentito!
+    // se la variabile è true il messaggio sarà : Accesso consentito!
     if (controllo === true) {
         console.log(`${email.toLowerCase()} Accesso consentito!`);
+        document.getElementById('tipo-autorizzazione').innerHTML = 'Accesso consentito!';
     }
     else { //altrimenti : Accesso negato!
         console.log(`${email.toLowerCase()} Accesso negato!`);
+        document.getElementById('tipo-autorizzazione').innerHTML = 'Accesso negato!';
     }
+
 })
 
