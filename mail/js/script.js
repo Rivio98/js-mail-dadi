@@ -1,0 +1,2 @@
+//creo l' array con dentro varie email
+const autorizzati = ["rivaldogjoni@email.com", "pippobaudo@email.com", "fattigliaffarituoi@gmail.com", "michiamiilpresidente@gmail.com", "maeleiilpresidente@gamail.com", "scalainforza@gmail.com", "nimortaccitua@gmail.com"];
