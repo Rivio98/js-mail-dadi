@@ -5,5 +5,7 @@ const autorizzati = ["rivaldogjoni@email.com", "pippobaudo@email.com", "fattigli
 const button = document.getElementById("access")
 
 button.addEventListener('click', function () {
+
+    // creo un input dove chiedo all'utente la sua email ed recupero il valore inserito
     let email = document.getElementById('email').value.toLowerCase()
 })
