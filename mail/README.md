@@ -10,6 +10,8 @@ Vietato utilizzare la funzione includes
 
 3 creo un input dove chiedo all'utente la sua email ed recupero il valore inserito
 
-4 recupero il valore inserito nel campo input email e controllo se c'è nell array che ho creato
+4 crea una variabile di controllo per dirmi se l'email è presente o meno nell array
+
+5 recupero il valore inserito nel campo input email e controllo se c'è nell array che ho creato
 -se il valore c'è stampa : Accesso Consentito!
 altrimenti stampa : Lei non ha le autorizzazioni necessarie richieste per l'accesso!

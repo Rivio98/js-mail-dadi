@@ -8,4 +8,7 @@ button.addEventListener('click', function () {
 
     // creo un input dove chiedo all'utente la sua email ed recupero il valore inserito
     let email = document.getElementById('email').value.toLowerCase()
+
+    //crea una variabile di controllo per dirmi se l'email è presente o meno nell array
+    let controllo = false;
 })
