@@ -1,4 +1,13 @@
-#dice {
+img {
     width: 200px;
     height: 200px;
+}
+
+#result {
+    font-size: 50px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
 }
